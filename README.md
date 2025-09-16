@@ -2,7 +2,7 @@
 
 ```
 
-System.println.out("Hello, World!");
+System.out.printf("Hello, World!");
 
 ```
 
