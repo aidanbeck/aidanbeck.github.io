@@ -4,7 +4,9 @@ import Card from './components/Card';
 function App() {
 
   return (
-    <section>
+    <>
+     <h1>My Portfolio Projects</h1>
+     <section>
       <Card>
         <h2>Old Cove</h2>
         <p>A choose-your-own adventure!</p>
@@ -48,6 +50,8 @@ function App() {
         <marquee scrollamount="5">This is a placeholder!</marquee>
       </Card>
     </section>
+    <p>Hover over some cards to check out projects I've build!</p>
+    </>
   )
 }
 

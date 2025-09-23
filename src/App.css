@@ -1,9 +1,17 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  /* max-width: 1280px; */
+  margin: 0;
   padding: 2rem;
+
+  background-image: linear-gradient(to bottom, #717744, #363920);
+
+  
 }
 
 section {
   display: flex;
+}
+
+img {
+  border-radius: 5px;
 }
