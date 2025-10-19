@@ -1,8 +1,7 @@
-/* 🧊 */
-
 .scene {
     width: 1000px;
     height: 1000px;
+    margin: 0;
     perspective: 1000px;
 
     background-color: aqua;
@@ -11,7 +10,7 @@
 .🧊 {
     position: absolute;
     transform-style: preserve-3d;
-    translate: 500px 800px -105px;
+    translate: 500px 1000px -105px;
 
     transition: transform 2s;
 }
@@ -21,6 +20,14 @@
                rotateZ(0deg)
 }
 
+
+.🧊origin {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-left: 2px solid black;
+}
 
 .🧊face {
     position: absolute;
@@ -47,14 +54,14 @@
     transform: rotateX(0deg)
                rotateY(0deg)
                rotateZ(0deg)
-               translate3d(-100px, 0px, 100px)
+               translate3d(-100px, -200px, 100px)
 }
 
 .🧊face.S {
     transform: rotateX(0deg)
                rotateY(180deg)
                rotateZ(0deg)
-               translate3d(100px, 0px, 100px)
+               translate3d(100px, -200px, 100px)
                
 }
 
@@ -62,26 +69,26 @@
     transform: rotateX(0deg)
                rotateY(-90deg)
                rotateZ(0deg)
-               translate3d(0px, 0px, 200px)
+               translate3d(0px, -200px, 200px)
 }
 
 .🧊face.W {
     transform: rotateX(0deg)
                rotateY(90deg)
                rotateZ(0deg)
-               translate3d(0px, 0px, 0px)
+               translate3d(0px, -200px, 0px)
 }
 
 .🧊face.U {
     transform: rotateX(90deg)
                rotateY(0deg)
                rotateZ(0deg)
-               translate3d(-100px, -0px, 100px)
+               translate3d(-100px, 0px, 300px)
 }
 
 .🧊face.D {
     transform: rotateX(-90deg)
                rotateY(0deg)
                rotateZ(0deg)
-               translate3d(-100px, 0px, 100px)
+               translate3d(-100px, 00px, -100px)
 }

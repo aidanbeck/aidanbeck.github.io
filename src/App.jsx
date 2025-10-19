@@ -13,7 +13,8 @@ function App() {
         <div className="🧊face E">E</div>
         <div className="🧊face W">W</div>
         <div className="🧊face U">U</div>
-        <div className="🧊face D">D</div>
+        <div className="🧊face D">V</div>
+        <div className="🧊origin"></div>
       </div>
     </div>
     </>
