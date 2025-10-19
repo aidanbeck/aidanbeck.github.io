@@ -1,26 +1,25 @@
 /* 🧊 */
 
 .scene {
-    width: 200px;
-    height: 200px;
-    perspective: 600px;
+    width: 1000px;
+    height: 1000px;
+    perspective: 1000px;
+
+    background-color: aqua;
 }
 
 .🧊 {
-    width: 100%;
-    height: 100%;
-    position: relative;
+    position: absolute;
     transform-style: preserve-3d;
-    transform: rotateY(33deg) translateX(200px);
+    translate: 400px 800px;
+
     transition: transform 2s;
 }
-
 .🧊:hover {
-    transform: rotateX(180deg)
-               rotateY(360deg)
-               rotateZ(180deg)
+    transform: rotateX(0deg)
+               rotateY(180deg)
+               rotateZ(0deg)
 }
-
 
 
 .🧊face {
@@ -31,12 +30,13 @@
     transform: scale3d(1, 1, 1);
 
     background-color: white;
-    border: 2px solid black;
-  
+    outline: 2px solid black;  
 }
 .🧊face:hover {
     opacity: 50%;
     background-color: red;
+    outline: 4px solid black;
+    outline-offset: -4px;
 }
 
 .🧊face.N {
