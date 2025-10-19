@@ -11,7 +11,7 @@
 .🧊 {
     position: absolute;
     transform-style: preserve-3d;
-    translate: 400px 800px;
+    translate: 500px 800px -105px;
 
     transition: transform 2s;
 }
@@ -30,27 +30,31 @@
     transform: scale3d(1, 1, 1);
 
     background-color: white;
-    outline: 2px solid black;  
+    font-size: 800%;
+    text-align: center;
+    padding: 1px; /* gets rid of edge gaps */
 }
 .🧊face:hover {
     opacity: 50%;
     background-color: red;
     outline: 4px solid black;
     outline-offset: -4px;
+    color: white;
+    
 }
 
 .🧊face.N {
     transform: rotateX(0deg)
                rotateY(0deg)
                rotateZ(0deg)
-               translate3d(0px, 0px, 0px)
+               translate3d(-100px, 0px, 100px)
 }
 
 .🧊face.S {
     transform: rotateX(0deg)
                rotateY(180deg)
                rotateZ(0deg)
-               translate3d(0px, 0px, 200px)
+               translate3d(100px, 0px, 100px)
                
 }
 
@@ -58,26 +62,26 @@
     transform: rotateX(0deg)
                rotateY(-90deg)
                rotateZ(0deg)
-               translate3d(-100px, 0px, 100px)
+               translate3d(0px, 0px, 200px)
 }
 
 .🧊face.W {
     transform: rotateX(0deg)
                rotateY(90deg)
                rotateZ(0deg)
-               translate3d(100px, 0px, 100px)
+               translate3d(0px, 0px, 0px)
 }
 
 .🧊face.U {
     transform: rotateX(90deg)
                rotateY(0deg)
                rotateZ(0deg)
-               translate3d(0px, -100px, 100px)
+               translate3d(-100px, -0px, 100px)
 }
 
 .🧊face.D {
-    transform: rotateX(90deg)
+    transform: rotateX(-90deg)
                rotateY(0deg)
                rotateZ(0deg)
-               translate3d(0px, -100px, -100px)
+               translate3d(-100px, 0px, 100px)
 }
