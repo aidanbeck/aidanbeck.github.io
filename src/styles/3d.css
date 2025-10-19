@@ -1,0 +1,83 @@
+/* 🧊 */
+
+.scene {
+    width: 200px;
+    height: 200px;
+    perspective: 600px;
+}
+
+.🧊 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(33deg) translateX(200px);
+    transition: transform 2s;
+}
+
+.🧊:hover {
+    transform: rotateX(180deg)
+               rotateY(360deg)
+               rotateZ(180deg)
+}
+
+
+
+.🧊face {
+    position: absolute;
+
+    width: 200px;
+    height: 200px;
+    transform: scale3d(1, 1, 1);
+
+    background-color: white;
+    border: 2px solid black;
+  
+}
+.🧊face:hover {
+    opacity: 50%;
+    background-color: red;
+}
+
+.🧊face.N {
+    transform: rotateX(0deg)
+               rotateY(0deg)
+               rotateZ(0deg)
+               translate3d(0px, 0px, 0px)
+}
+
+.🧊face.S {
+    transform: rotateX(0deg)
+               rotateY(180deg)
+               rotateZ(0deg)
+               translate3d(0px, 0px, 200px)
+               
+}
+
+.🧊face.E {
+    transform: rotateX(0deg)
+               rotateY(-90deg)
+               rotateZ(0deg)
+               translate3d(-100px, 0px, 100px)
+}
+
+.🧊face.W {
+    transform: rotateX(0deg)
+               rotateY(90deg)
+               rotateZ(0deg)
+               translate3d(100px, 0px, 100px)
+}
+
+.🧊face.U {
+    transform: rotateX(90deg)
+               rotateY(0deg)
+               rotateZ(0deg)
+               translate3d(0px, -100px, 100px)
+}
+
+.🧊face.D {
+    transform: rotateX(90deg)
+               rotateY(0deg)
+               rotateZ(0deg)
+               translate3d(0px, -100px, -100px)
+}
