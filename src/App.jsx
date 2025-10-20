@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <br/>
+      <marquee>🚧This portfolio is under 🏗️construction🏗️! 👷Stay tuned.👷‍♀️ 🚧</marquee>
       <section>
         <img className="face" src="face.png"></img>
         <div>
@@ -41,6 +41,7 @@ function App() {
       </section>
 
       <hr/>
+      <marquee>🚧This portfolio is under 🏗️construction🏗️! 👷Stay tuned.👷‍♀️ 🚧</marquee>
 
     </>
   )
