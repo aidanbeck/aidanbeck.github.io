@@ -10,14 +10,18 @@
 .🧊 {
     position: absolute;
     transform-style: preserve-3d;
-    translate: 500px 1000px -105px;
 
+    translate: 500px 1000px -105px;
     transition: transform 2s;
+
+    --width: 400px;
+    --height: 400px;
+    --depth: 150px;
 }
 .🧊:hover {
     transform: rotateX(0deg)
                rotateY(180deg)
-               rotateZ(0deg)
+               rotateZ(0deg);
 }
 
 
@@ -32,9 +36,8 @@
 .🧊face {
     position: absolute;
 
-    width: 200px;
-    height: 200px;
-    transform: scale3d(1, 1, 1);
+    width: var(--width);
+    height: var(--height);
 
     background-color: white;
     font-size: 800%;
@@ -51,44 +54,73 @@
 }
 
 .🧊face.N {
-    transform: rotateX(0deg)
-               rotateY(0deg)
-               rotateZ(0deg)
-               translate3d(-100px, -200px, 100px)
+    transform:  rotateX(0deg)
+                rotateY(0deg)
+                rotateZ(0deg)
+                translate3d(
+                    calc( var(--width) / -2),
+                    calc( var(--height) * -1),
+                    calc( var(--depth) / 2)
+                );
 }
 
 .🧊face.S {
     transform: rotateX(0deg)
                rotateY(180deg)
                rotateZ(0deg)
-               translate3d(100px, -200px, 100px)
+               translate3d(
+                    calc( var(--width) / 2),
+                    calc( var(--height) * -1),
+                    calc( var(--depth) / 2)
+                );
                
 }
 
 .🧊face.E {
+    width: var(--depth);
     transform: rotateX(0deg)
                rotateY(-90deg)
                rotateZ(0deg)
-               translate3d(0px, -200px, 200px)
+               translate3d(
+                    0px,
+                    calc( var(--height) * -1),
+                    calc( var(--depth) / 2 + var(--width) / 2)
+                );
 }
 
 .🧊face.W {
+    width: var(--depth);
     transform: rotateX(0deg)
                rotateY(90deg)
                rotateZ(0deg)
-               translate3d(0px, -200px, 0px)
+               /* translate3d(0px, -200px, 0px) */
+               translate3d(
+                    0px,
+                    calc( var(--height) * -1),
+                    calc( var(--depth) / 2 )
+                );
 }
 
 .🧊face.U {
+    height: var(--depth);
     transform: rotateX(90deg)
                rotateY(0deg)
                rotateZ(0deg)
-               translate3d(-100px, 0px, 300px)
+               translate3d(
+                    calc( var(--depth) * -1),
+                    0px,
+                    calc( var(--height) + var(--depth) / 2)
+                );
 }
 
 .🧊face.D {
+    height: var(--depth);
     transform: rotateX(-90deg)
                rotateY(0deg)
                rotateZ(0deg)
-               translate3d(-100px, 00px, -100px)
+               translate3d(
+                    calc( var(--width) / -1.5),
+                    0px,
+                    calc( var(--depth) / -2)
+                );
 }
