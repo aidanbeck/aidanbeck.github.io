@@ -1,5 +1,4 @@
 # Hello! I'm *Aidan Beck*.
----
 
 I'm a software developer from St. Louis, Missouri.
 Software allows me to convey 
@@ -9,6 +8,7 @@ Software allows me to convey
 *Java, Spring Boot, MySQL, C, Kotlin.*
 
 [GitHub](https://github.com/aidanbeck) [LinkedIn](https://www.linkedin.com/in/aidancodes/) [Resume](resume.pdf)
+
 
 ## Old Cove: 2025 Capstone Project
 *JavaScript, React, Java, Spring Boot*
