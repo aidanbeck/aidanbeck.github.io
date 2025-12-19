@@ -3,7 +3,28 @@
 <div>
 
 <img src="face.jpeg" width="250rem">
-{% include introduction.md %}
+
+<span>
+
+<p>I’m a software developer from St. Louis, Missouri.</p>
+
+<p><strong>My Front End &amp; Back End Stacks</strong></p>
+
+<p><em>JavaScript, React, HTML5.</em></p>
+
+<p><em>Java, Spring Boot, MySQL, C, Kotlin.</em></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://github.com/aidanbeck">GitHub</a></td>
+      <td><a href="https://www.linkedin.com/in/aidancodes/">LinkedIn</a></td>
+      <td><a href="/resume.pdf">Resume</a></td>
+    </tr>
+  </tbody>
+</table>
+
+</span>
 
 </div>
 
