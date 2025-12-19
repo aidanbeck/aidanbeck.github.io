@@ -11,12 +11,11 @@ I'm a software developer from St. Louis, Missouri.
 *JavaScript, React, HTML5.*
 
 *Java, Spring Boot, MySQL, C, Kotlin.*
-
 [GitHub](https://github.com/aidanbeck) | [LinkedIn](https://www.linkedin.com/in/aidancodes/) | [Resume](resume.pdf)
 
 
 ## Old Cove: 2025 Capstone Project
-[Demo](https://aidanbeck.com/old-cove/) | [GitHub](https://github.com/aidanbeck/old-cove) |
+| [Demo](https://aidanbeck.com/old-cove/) | [GitHub](https://github.com/aidanbeck/old-cove) |
 
 *JavaScript, React, Java, Spring Boot*
 
