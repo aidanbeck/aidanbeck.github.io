@@ -7,3 +7,7 @@ div {
     display: flex;
     gap: 1rem;
 }
+
+span {
+  display: inline-block;
+}
