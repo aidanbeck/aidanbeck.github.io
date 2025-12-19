@@ -20,9 +20,12 @@ I'm a software developer from St. Louis, Missouri.
 </span>
 </div>
 
+<br>
+
+<div>
 
 ## Old Cove: 2025 Capstone Project
-[Demo](https://aidanbeck.com/old-cove/) | [GitHub](https://github.com/aidanbeck/old-cove)
+[Demo](https://aidanbeck.com/old-cove/) | [GitHub](https://github.com/aidanbeck/old-cove) |
 
 *JavaScript, React, Java, Spring Boot*
 
@@ -33,3 +36,5 @@ It features a scripting language designed for non-programmers to construct rooms
 It also features user sign ups and log ins for saving progress in a playthrough, using Java and Spring Boot to implement CRUD functionality.
 
 The front end is statically deployed and the back end is on GitHub.
+
+</div>
