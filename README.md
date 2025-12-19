@@ -2,7 +2,7 @@
 
 <div>
 
-<img src="face.jpeg" width="250rem">
+<span><img src="face.jpeg" width="250rem"></span>
 
 <span>
 
