@@ -3,11 +3,11 @@ img {
     /* margin-right: 1rem */
 }
 
-div {
-    display: flex;
-    gap: 1rem;
-}
-
 .inline {
   display: inline-block;
+}
+
+.line {
+    display: flex;
+    gap: 1rem;
 }

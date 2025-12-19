@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="portfolio.css">
 
-<div>
+<div class="line">
     <div class="inline"><img src="face.jpeg" width="250rem"></div>
     <div class="inline">
         <h1> Hello! I'm <em>Aidan Beck</em>.</h1>
@@ -14,7 +14,7 @@
                 </tr>
             </tbody>
         </table>
-        <div>
+        <div class="line">
             <div class="inline">
                 <h3>My Back End Stacks</h3>
                 <ul>
