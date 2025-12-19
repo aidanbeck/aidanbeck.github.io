@@ -1,18 +1,45 @@
 <link rel="stylesheet" href="portfolio.css">
 
-<img src="face.jpeg" width="250rem">
+<div>
+    <span><img src="face.jpeg" width="250rem"></span>
+    <span>
+        <h1> Hello! I'm <em>Aidan Beck</em>.</h1>
+        <p> I'm a Software Developer from St. Louis, Missouri.</p>
+        <table>
+            <tbody>
+                <tr>
+                <td><a href="https://github.com/aidanbeck">GitHub</a></td>
+                <td><a href="https://www.linkedin.com/in/aidancodes/">LinkedIn</a></td>
+                <td><a href="/resume.pdf">Resume</a></td>
+                </tr>
+            </tbody>
+        </table>
 
-# Hello! I'm *Aidan Beck*.
+        <div>
+            <span>
+                <h3>My Back End Stacks</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>Kotlin</li>
+                    <li>Spring Boot</li>
+                    <li>MySQL</li>
+                    <li>C</li>
+                </ul>
+            </span>
+            <span>
+                <h3>My Front End Stacks</h3>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>HTML 5</li>
+                    <li>CSS</li>
+                </ul>
+            </span>
+        </div>
+    </span>
+</div>
 
-I'm a software developer from St. Louis, Missouri.
-
-**My Front End & Back End Stacks**
-
-*JavaScript, React, HTML5.*
-
-*Java, Spring Boot, MySQL, C, Kotlin.*
-
-[GitHub](https://github.com/aidanbeck) | [LinkedIn](https://www.linkedin.com/in/aidancodes/) | [Resume](resume.pdf)
+<br>
 
 
 ## Old Cove: 2025 Capstone Project
