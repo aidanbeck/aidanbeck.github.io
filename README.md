@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="portfolio.css">
 
 <div>
-    <span class="inline"><img src="face.jpeg" width="250rem"></span>
-    <span class="inline">
+    <div class="inline"><img src="face.jpeg" width="250rem"></div>
+    <div class="inline">
         <h1> Hello! I'm <em>Aidan Beck</em>.</h1>
         <p> I'm a Software Developer from St. Louis, Missouri.</p>
         <table>
@@ -14,7 +14,6 @@
                 </tr>
             </tbody>
         </table>
-
         <div>
             <div class="inline">
                 <h3>My Back End Stacks</h3>
@@ -26,7 +25,7 @@
                     <li>C</li>
                 </ul>
             </div>
-            <div class="inline">>
+            <div class="inline">
                 <h3>My Front End Stacks</h3>
                 <ul>
                     <li>JavaScript</li>
@@ -36,9 +35,7 @@
                 </ul>
             </div>
         </div>
-
-    </span>
-
+    </div>
 </div>
 
 <br>
