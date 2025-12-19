@@ -1,4 +1,9 @@
-[//]: # (<img src="face.jpeg" width="250rem">)
+<link rel="stylesheet" href="portfolio.css">
+
+<div>
+<img src="face.jpeg" width="250rem">
+
+<span>
 
 # Hello! I'm *Aidan Beck*.
 
@@ -11,6 +16,10 @@ I'm a software developer from St. Louis, Missouri.
 *Java, Spring Boot, MySQL, C, Kotlin.*
 
 [GitHub](https://github.com/aidanbeck) | [LinkedIn](https://www.linkedin.com/in/aidancodes/) | [Resume](resume.pdf)
+
+</span>
+</div>
+
 
 ## Old Cove: 2025 Capstone Project
 [Demo](https://aidanbeck.com/old-cove/) | [GitHub](https://github.com/aidanbeck/old-cove)
