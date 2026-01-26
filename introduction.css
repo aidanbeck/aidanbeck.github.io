@@ -1,8 +1,9 @@
 .introduction {
-    aspect-ratio: 16 / 9;
-    width: 49rem;
+    aspect-ratio: 16 / 6;
+    width: 74rem;
     text-align: center;
-    background-color: #f0f0f0; /* temporary */
+    /* background-color: #f0f0f0; */
+    /* box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.25); */
     margin-left: auto;
     margin-right: auto;
     
@@ -23,7 +24,7 @@
     text-align: left;
     font-weight: 900;
     font-size: 3.1rem;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     margin-bottom: 0rem;
 }
 
@@ -37,9 +38,31 @@
 }
 
 .introduction nav {
-    position: absolute;
-    bottom: 0;
+    margin-top: 1.5rem;
+    background-color: red;
 }
+
+.introduction button {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    float: left;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin-right: 0.8rem;
+    border-radius: 50%;
+
+    
+    border: 2px solid #c3cfe2;
+    cursor: pointer;
+}
+
+.introduction button:hover {
+    background: linear-gradient(-135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border: 3px solid #c3cfe2;
+    
+}
+
 /*
     Card Vertical Dimensions
     0.5rem margin, each side   = 1.0
