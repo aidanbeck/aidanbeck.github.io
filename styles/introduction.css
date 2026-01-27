@@ -61,7 +61,7 @@
     }
 }
 
-@media (max-width: 799px) { /* fits 1 card */
+@media (max-width: 700px) { /* fits 1 card */
     .introduction {
         width: 24rem;
         aspect-ratio: 5 / 6;
