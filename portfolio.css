@@ -3,7 +3,9 @@ body {
     background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
-html {
-    /* font-size: clamp(16px, 2vw, 16px); */
-    /* font-size: 1.9vh; */
+/* Responsive adjustments */
+@media (max-width: 400px) {
+    html {
+        font-size: 4vw;
+    }
 }

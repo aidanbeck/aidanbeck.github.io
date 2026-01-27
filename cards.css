@@ -38,10 +38,3 @@
     margin: 2% 0% 0% 2%;
     font-size: 1rem;
 }
-
-/* Responsive adjustments */
-@media (max-width: 400px) {
-    html {
-        font-size: 4vw;
-    }
-}
