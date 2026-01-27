@@ -27,16 +27,19 @@
 
 .card h1 {
     margin: 1% 0% 1% 2.5%; /* TOP RIGHT BOTTOM LEFT */ /* 2.5% to center with the image */
+    
     font-weight: 600;
 }
 
 .card p {
     width: 95%;
     margin: 2% auto 0% auto;
+
     font-size: 1.1rem;
 }
 
 .card .links {
     text-align: center;
+
     word-spacing: 1rem;
 }
