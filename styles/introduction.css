@@ -1,5 +1,5 @@
 .introduction {
-    aspect-ratio: 16 / 6;
+    aspect-ratio: 16 / 4;
     width: 74rem; /* 3 cards wide */
     margin: 3rem auto; /* 3rem on top, auto elsewhere */
 }
@@ -21,33 +21,32 @@
     font-size: 1.1rem;
     margin-top: 0.5rem;
     line-height: 1.5rem;
+    width: 60rem;
 }
 
 .introduction nav {
     margin-top: 1.5rem;
 }
 
-.introduction a {
+.introduction nav a {
     text-align: center;
     font-size: 1.1rem;
     font-weight: 400;
     float: left;
-    width: 5rem;
-    height: 5rem;
+    width: 8rem;
+    height: 3rem; line-height: 3rem;
     margin-right: 0.8rem;
-    border-radius: 50%;
 
     border: 2px solid #c3cfe2;
     cursor: pointer;
 
-    line-height: 4.5rem;
     font-weight: 450;
 
     color: #3e4147;
     text-decoration: none;
 }
 
-.introduction a:hover {
+.introduction nav a:hover {
     background: linear-gradient(-135deg, #f5f7fa 0%, #c3cfe2 100%);
     border: 2px solid #828996;
     text-decoration: underline;  
@@ -57,20 +56,28 @@
 @media (max-width: 1199px) { /* fits 2 cards */
     .introduction {
         width:49rem;
-        aspect-ratio: 16 / 9;
+        aspect-ratio: 16 / 7;
+    }
+    .introduction p {
+        width: 100%;
     }
 }
 
 @media (max-width: 700px) { /* fits 1 card */
     .introduction {
         width: 24rem;
-        aspect-ratio: 5 / 6;
+        aspect-ratio: 1;
     }
     .introduction img {
         display: none;
     }
     .introduction p, .introduction h1, .introduction nav {
         margin-left: 2.5%; /* align vertically with card content */
+    }
+
+    .introduction nav a {
+        width: 7rem;
+        margin-right: 0.5rem;
     }
 }
 
